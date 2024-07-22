@@ -4,7 +4,15 @@
 % License : MIT
 %------------------------
 
-\documentclass[a4paper,11pt]{article}
+%\documentclass[legalpaper,11pt]{article}
+\documentclass{article}
+
+\usepackage{geometry}
+\geometry{
+  paperwidth=7.75in,
+  paperheight=11in,
+  margin=1in,
+}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -90,7 +98,7 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{{\Large Liezel Uy Tamon}} & Email : \href{mailto:liezel.tamon@imm.ox.ac.uk}{liezel.tamon@imm.ox.ac.uk} \& \href{mailto:liezeltamon@gmail.com}{liezeltamon@gmail.com}\\
-  University of Oxford & Mobile : +44(0) 7789233360 \\
+  \href{https://www.rdm.ox.ac.uk/people/liezel-tamon}{University of Oxford} & Mobile : +44(0) 7789233360 \\
   \href{https://www.linkedin.com/in/liezel-tamon-613348174}{\textsc{LinkedIn}}
   \href{https://github.com/liezeltamon}{\textsc{GitHub}}
 \end{tabular*}
@@ -154,7 +162,7 @@
                 \resumeItem{Modelling, machine learning}{Modelling stability indicators of i-motif secondary structures \href{https://github.com/SahakyanLab/iMotif_dev}{GitHub} \href{https://doi.org/10.1002/anie.202016801}{Paper}}
                     \begin{itemize}
                         \item {Used different methods to predict stability indicators (i.e. melting temperature and pH transition midpoint) of i-motif-forming DNA sequences: 1) \textsc{Eureqa} for symbolic regression, 2) \texttt{ROptimus} to adapt a G-quadruplex predictor for i-motifs, 3) \texttt{caret} \href{https://github.com/liezeltamon/ml-lib}{GitHub} and \texttt{xgboost} R packages to implement gradient boosting}
-                        \item {Some experience with automated machine learning library, AutoGluon, which is useful for prediction tasks focused on ranking features based on importance \href{https://github.com/liezeltamon/predicting-contact-variability/tree/main}{GitHub}}
+                        \item {Used an automated machine learning library, AutoGluon (useful for prediction tasks focused on ranking features based on importance), predicting cell-type variability/persistence of genomic contacts from sequence features \href{https://github.com/liezeltamon/predicting-contact-variability/tree/main}{GitHub}}
                         \item {Attended in-person \href{https://training.cam.ac.uk/course/bioinfo-ml}{ML course} (Oct. 2-4, 
                         2019)}
                     \end{itemize}
@@ -164,7 +172,8 @@
                 \resumeItem{Consulting internship}{Provided a cost-benefit analysis of early diagnosis of dementia for \href{https://www.oxfordbraindiagnostics.com/}{Oxford Brain Diagnostics}, with patented technology for early and more accurate diagnosis}
                     \begin{itemize}
                         \item {\href{https://www.careers.ox.ac.uk/oxford-strategy-challenge}{The Oxford Strategy Challenge (TOSCA)} - The University of Oxford Careers Service offers a short consultancy training program where five-student teams work on projects for companies over 1.5 weeks}
-                        \item {Provided scientific background on dementia and stage-specific interventions; among members that initiated to take a more quantitative approach estimating cost difference between standard and early dementia management per individual, highlighting benefits like reduced hospitalisations and cheaper total palliative care through early symptom management and lifestyle changes}
+                        % Provided scientific background on dementia and stage-specific interventions
+                        \item {Among members that initiated to take a more quantitative approach estimating cost difference between standard and early dementia management per individual, highlighting benefits like reduced hospitalisations and cheaper total palliative care through early symptom management and lifestyle changes}
                     \end{itemize}
             \resumeItemListEnd
     
@@ -172,8 +181,11 @@
                 \resumeItem{Collaboration}{with \href{http://www.collepardolab.org/}{Computational Physics of Chromatin group} for thesis, with experimental chemistry groups from Europe and China for the i-motif project, with group members for the ROptimus R package, with Oxford students from different fields for consulting internship}
             \resumeItemListEnd
 
+%-----------RESEARCH EXPERIENCE-----------------
+\section{RELEVANT SKILLS}
+
         \resumeSubheading
-        {Other relevant skills}{Oct. 2018 -- present}{}{}
+        {Computational}{Oct. 2018 -- present}{Started with my PhD}{}
             \resumeItemListStart
                 \resumeItem{Programming}{Proficient in R and Linux $|$ familiar with Python through online and in-person courses, \href{https://github.com/liezeltamon/advent-of-code}{self-learning}, and when using Autogluon for \href{https://github.com/liezeltamon/predicting-contact-variability/tree/main}{predicting contact variability} (also used C++ integrating with R through \texttt{Rcpp}) $|$ familiar with \href{https://learn.365datascience.com/certificates/CC-1C72E62035/}{SQL} $|$ IDEs - RStudio, VS Code, Jupyter Notebook}
             \resumeItemListEnd
