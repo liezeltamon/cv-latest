@@ -4,12 +4,12 @@
 % License : MIT
 %------------------------
 
-%\documentclass[legalpaper,11pt]{article}
+%\documentclass[a4paper,11pt]{article}
 \documentclass{article}
 
 \usepackage{geometry}
 \geometry{
-  paperwidth=7.75in,
+  paperwidth=8.3in,
   paperheight=11in,
   margin=1in,
 }
@@ -107,7 +107,7 @@
 \section{EDUCATION}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {PhD in Medical Sciences (Computational Biology)}{Oxford, UK}
+      {PhD in Medical Sciences - Computational Biology}{Oxford, UK}
       {University of Oxford - \href{https://www.jardines.com/en/sustainability/our-strategy/shaping-social-inclusion/jardine-foundation?tab=scholarship-schemes}{Jardine Foundation Postgraduate Scholarship}}{Oct. 2018 -- Jun. 2023}
     \resumeSubheading
       {Master of Science in Molecular Biology}{Goettingen, DE}
@@ -128,15 +128,19 @@
         \resumeSubheading
         {Postdoctoral computational biologist \& data science trainer}{University of Oxford, UK}{Balancing time between teaching (20 to 30 days per academic term) and research}{Jun. 2023 -- present}
             \resumeItemListStart
-                \resumeItem{Single-cell research, collaboration} {Can only share the \href{https://github.com/liezeltamon/utils/tree/main/R}{GitHub} repository with some single-cell utility functions used for the analyses (Seurat, Bioconductor, cell annotation, trajectory analysis, regulatory network analysis, etc.). Analysing single-cell RNA datasets from: 1) Genetically modified human brain organoids to study role of apoptosis in brain development and function with a group in Germany, 2) induced pluripotent stem cell-derived models for studying Parkinson's disease mechanisms with a group in Oxford - Supervised by \href{https://www.rdm.ox.ac.uk/people/david-sims}{Assoc. Prof. David Sims - Transcriptional regulation in neuroscience}}
+                \resumeItem{Single-cell research, collaboration} {Can only share the \href{https://github.com/liezeltamon/utils/tree/main/R}{GitHub} repository with some single-cell utility functions used for the analyses. Analysing single-cell RNA datasets from: 1) Genetically modified human brain organoids to study role of apoptosis in brain development and function with a group in Germany, 2) induced pluripotent stem cell-derived models for studying Parkinson's disease mechanisms with a group in Oxford - Supervised by \href{https://www.rdm.ox.ac.uk/people/david-sims}{Assoc. Prof. David Sims - Transcriptional regulation in neuroscience}}
+                    \begin{itemize}
+                        \resumeItem {Workflows using Seurat and Bioconductor packages}{Integrating these packages to perform cell annotation, trajectory analysis, differential expression and abundance, etc.}
+                        \resumeItem {Machine learning}{\href{https://github.com/liezeltamon/ml-tabular}{GitHub} Currently creating workflow to use ML on tabular data at certain steps of computational analyses for ranking features. Use cases in single-cell analysis include predicting pseudotime to identify trajectory driver genes, predicting control vs. phenotype to identify biologically relevant features, and general feature selection to reduce dimensionality especially when integrating multiple modalities.}
+                    \end{itemize}
                 \resumeItem{Teaching in \href{https://www.imm.ox.ac.uk/research/units-and-centres/mrc-wimm-centre-for-computational-biology/training/oxford-biomedical-data-science-training-programme}{Oxford Biomedical Data Science Training Programme}}{Genomics on the Linux command line, R for data science and genomics, Introduction to single-cell data analysis using R. Contributing to course materials in {\href{https://github.com/kevinrue/OBDS_slides}{GitHub}}. Recently attended (Jan. 2024) the following modules: Python programming, Data science and Single-cell RNAseq using Python, to expand my skills.}
-                 \resumeItem{Applying ML/DL algorithms to address dementia-related diseases (Jul. 2024 -- present) \href{https://github.com/liezeltamon/ml-wearable-data}{GitHub}}{Volunteering with the \href{https://www.psych.ox.ac.uk/team/alejo-nevado-holgado}{A.I. and bioinformatics applied to mental health} group in Oxford to develop my skills in effectively utilising these methods; currently working with UK Biobank data}
+                 %\resumeItem{Applying ML/DL algorithms to address dementia-related diseases (Jul. 2024 -- present) \href{https://github.com/liezeltamon/ml-wearable-data}{GitHub}}{Volunteering with the \href{https://www.psych.ox.ac.uk/team/alejo-nevado-holgado}{A.I. and bioinformatics applied to mental health} group in Oxford to develop my skills in effectively utilising these methods; currently working with UK Biobank data}
             \resumeItemListEnd
         \resumeSubheading
         {PhD student, computational biology}{University of Oxford, UK}{Transitioned from wet lab to pure computational research}{Oct. 2018 -- Jun. 2023}
 
             \resumeItemListStart
-                \resumeItem{Thesis}{Analysis of long-range contacts across cell types outlines a core sequence determinant of 3D genome organisation \href{https://github.com/SahakyanLab/GenomicContactDynamics}{GitHub} \href{https://drive.google.com/file/d/1j3xg4ipr3ruG7vPtyXWO4wrDjJaRznfg/view?usp=share_link}{Manuscript} submitted $|$ Review in prep. "The Emerging Sequence Grammar of 3D Genome Organization" - Supervised by \href{https://www.imm.ox.ac.uk/research/research-groups/sahakyan-group-integrative-computational-biology-and-machine-learning}{Dr. Aleksandr B. Sahakyan - Integrative Computational Biology and Machine Learning}}
+                \resumeItem{Thesis}{Analysis of long-range contacts across cell types outlines a core sequence determinant of 3D genome organisation \href{https://github.com/SahakyanLab/GenomicContactDynamics}{GitHub} \href{https://drive.google.com/file/d/1j3xg4ipr3ruG7vPtyXWO4wrDjJaRznfg/view?usp=share_link}{Manuscript} submitted $|$ \href{https://drive.google.com/file/d/1UM0ED34OYEIu4JmoW4s1DxhPyEq6vtuD/view?usp=share_link}{Review} in prep. "The Emerging Sequence Grammar of 3D Genome Organization" - Supervised by \href{https://www.imm.ox.ac.uk/research/research-groups/sahakyan-group-integrative-computational-biology-and-machine-learning}{Dr. Aleksandr B. Sahakyan - Integrative Computational Biology and Machine Learning}}
                     \begin{itemize}
                         \resumeItem {Topic}{Leveraged multiple genomic contact datasets from various cell types and species, intersecting with other publicly available, processed datasets to delve into the core principles underlying 3D genome architecture, focusing on the contribution of sequence}
                         \resumeItem {Handled various datasets}{Genomic contacts from 3C-based methods, reference genomes, gene features and expression, somatic cancer SNV data, replication timing, DNA sequence features and annotations (e.g. k-meric composition, DNA secondary structure, repeat elements, motifs), $\approx$ 300 functional features from databases like ENCODE - primarily used custom code for analysing, integrating, visualising and extracting features from these datasets}
@@ -183,11 +187,11 @@
 
 %-----------RESEARCH EXPERIENCE-----------------
 \section{RELEVANT SKILLS}
-
+%and ongoing work on applying ML/DL on biobank data
         \resumeSubheading
         {Computational}{Oct. 2018 -- present}{Started with my PhD}{}
             \resumeItemListStart
-                \resumeItem{Programming}{Advanced proficiency in R and Linux $|$ Basic proficiency in Python (actively improving through \href{https://github.com/liezeltamon/advent-of-code}{self-learning}, projects e.g. \href{https://github.com/liezeltamon/predicting-contact-variability/tree/main}{GitHub - predicting contact variability} and ongoing work on applying ML/DL on biobank data $|$ Experience with C++ integrating with R through \texttt{Rcpp} $|$ familiar with \href{https://learn.365datascience.com/certificates/CC-1C72E62035/}{SQL} $|$ IDEs: RStudio, VS Code, Jupyter Notebook}
+                \resumeItem{Programming}{Advanced proficiency in R and Linux $|$ Basic proficiency in Python (actively improving through \href{https://github.com/liezeltamon/advent-of-code}{self-learning}, projects e.g. \href{https://github.com/liezeltamon/predicting-contact-variability/tree/main}{GitHub - predicting contact variability} $|$ Experience with C++ integrating with R through \texttt{Rcpp} $|$ familiar with \href{https://learn.365datascience.com/certificates/CC-1C72E62035/}{SQL} $|$ IDEs: RStudio, VS Code, Jupyter Notebook}
             \resumeItemListEnd
 
             \resumeItemListStart
@@ -230,7 +234,7 @@
   \resumeSubHeadingListStart
     \resumeSubItem{Right to work in the UK}{I am a Filipino citizen with right to full-time work under a \href{https://www.gov.uk/graduate-visa}{Graduate Visa} valid until 31 July 2026}
     \resumeSubItem{Hobbies}
-    {I love playing indoor and beach volleyball! I regularly play socially and also train as a member of the \href{http://www.oxfordvolleyball.co.uk}{Oxford Volleyball Club}. I also like playing racquet sports like tennis, squash and table tennis.}
+    {I love playing indoor and beach volleyball! I regularly play socially and as a member of the \href{http://www.oxfordvolleyball.co.uk}{Oxford Volleyball Club}. I also like playing racquet sports like tennis, squash and table tennis.}
   \resumeSubHeadingListEnd
 
 \end{document}
